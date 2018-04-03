@@ -86,3 +86,8 @@ The difference in means calculated in this test is not equal to zero, meaning th
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
 
+After analyzing the data both graphically and numerically, we can conclude that skill players do, on average, perform more pushups than line players. The box plot allowed for a visual representation of the differences in the number of pushups, and the exact numbers of pushups performed and the means confirmed those differences.  
+
+Futhermore, the p-value obtained from the t-test, led us to reject our null hypothesis and instead favor the alternative hypothesis that there **is** a relationship between the number of pushups a football player can perform and the position they play. 
+
+While carrying out this study, we did not examine the variable of football players' weight as recorded by the MAT 111 students. It would be interesting to conduct further research to determine if the weight of a player has any bearing on the amount of pushups they can perform. For example, even though we concluded that the average skill player can perform more pushups, we could research which skill player can perform more: a heavier weight or a lighter weight skill player.
