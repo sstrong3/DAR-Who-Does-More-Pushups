@@ -41,10 +41,29 @@ The goal of this report is to examine and compare the number of pushups a player
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
+Looking at the boxplot below, we can determine whether the amount of pushups performed by each type of player appears to be the same.
 
+```{r}
+bwplot(pushups~position,data=pushups,
+main="Who Does More Pushups?",
+xlab="Player Position",
+ylab="Pushups")
+```
+
+The boxplot of each player position are located at different points along the y-axis, indicating that the number of pushups performed by each position is different. The upper and lower whiskers on the plot reveal that the range of pushups is smaller for line players than for skill players. Line players appear to perform anywhere from 5 to 35 pushups; the skill players appear to perform anywhere from 20 to 90 pushups, with one player performing over 100 pushups. 
+
+More importantly, the dots inside the boxes show the median number of pushups performed. For line players, the median appears to be about 18 pushups; whereas the median for skill players is about 50 pushups. These numbers reveal that on average, the skill players perform more pushups. 
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+It is important to verify the indicated results of our boxplot by looking at exact numbers.
+
+```{r}
+favstats(pushups~position,data=pushups)
+```
+
+The data above is in line with our interpretation of the box plot. The average number of pushups performed by line players is 17.13, and the average number of pushups perfomred by skill players is 49.73. These significantly different numbers further our conclusion that skill players do, in fact, perform more pushups.
 
 
 # Inferential Results
