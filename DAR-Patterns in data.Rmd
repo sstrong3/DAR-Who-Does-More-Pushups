@@ -70,6 +70,18 @@ The data above is in line with our interpretation of the box plot. The average n
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+The use of a t-test will allow us to compare the means we have derived from our data set. We want to determine if there is a relationship between the amount of pushups a player can perform and the position they play. First, we must state our null and alternative hypotheses.
+
+$H_0$:  There is no relationship between the amount of pushups a player can perform and the position they play. 
+
+$H_a$: There *is* a relationship between the amount of pushups a player can perform and the position they play. 
+
+```{r}
+t.test(pushups~position,data=pushups)
+```
+
+The difference in means calculated in this test is not equal to zero, meaning there is a difference between the two groups of players and the pushups they can do. The p-value from this t-test is 0.000009421. If the null hypthesis is indeed true, then the results we just obtained would happen about far less than one percent of the time. Such a small number means we must reject the null hypothesis and conclude that the number of pushups a player can perform is related to the position they play.
+
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
