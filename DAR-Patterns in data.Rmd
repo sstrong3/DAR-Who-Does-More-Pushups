@@ -34,6 +34,7 @@ The goal of this report is to examine and compare the number of pushups a player
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+To examine the MAT 111 football pushup study, I will utilize a box plot as a graphical method and a variable analysis as a numerical method. The variable analysis will include comparing the factor variables of football player positions with the numerical factors of amount of pushups performed in a two minute period. In addition to these methods, I will form hypotheses about the relationship between the variables and use a t-test to determine which hypothesis to accept. 
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
